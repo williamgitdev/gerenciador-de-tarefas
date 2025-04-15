@@ -1,0 +1,7 @@
+O diretório `/GerenciadorTarefas/GerenciadorTarefas/src/GerenciadorTarefas.Infraestrutura/Migrations` deve conter os arquivos de migração gerados pelo Entity Framework Core. Esses arquivos são criados automaticamente quando você executa comandos de migração. Portanto, o conteúdo desse diretório será gerado dinamicamente e não deve ser escrito manualmente.
+
+Dessa forma, o diretório de migrações deve estar vazio inicialmente, e você pode adicionar um comentário indicando que ele foi deixado em branco para migrações futuras.
+
+Conteúdo do arquivo:
+
+// Este diretório é intencionalmente deixado em branco para migrações futuras do Entity Framework Core.

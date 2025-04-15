@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  gerenciador-tarefas:
+    image: gerenciador-tarefas:latest
+    build:
+      context: ./src/GerenciadorTarefas.API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - SA_PASSWORD=SenhaForte123!
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"
+    volumes:
+      - dbdata:/var/opt/mssql
+
+volumes:
+  dbdata:
