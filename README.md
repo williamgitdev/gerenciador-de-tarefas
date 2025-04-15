@@ -67,3 +67,31 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
+## Perguntas para Refinamento com o PO
+
+Perguntas estratégicas para orientar discussões de refinamento com o Product Owner:
+
+1. Visão e Métricas: Qual é a visão de longo prazo para este produto nos próximos 12 meses e quais métricas são utilizadas para medir seu sucesso?
+
+2. Priorização e Feedback: Quais funcionalidades os usuários mais solicitam atualmente e como isso se alinha com nossas prioridades de desenvolvimento?
+
+3. Experiência do Usuário: Quais áreas da aplicação geram mais confusão ou tickets de suporte, e como poderíamos melhorar a experiência nesses pontos?
+
+4. Escalabilidade: Considerando o crescimento esperado de usuários, quais aspectos da arquitetura atual deveríamos preparar para escalar prioritariamente?
+
+5. Integrações: Quais sistemas ou ferramentas externas nossos usuários mais utilizam que poderiam se beneficiar de uma integração com nossa plataforma?
+
+## Melhorias Propostas
+
+Esta seção apresenta cinco melhorias estratégicas para o projeto:
+
+1. Arquitetura CQRS: Implementar o padrão Command Query Responsibility Segregation para separar operações de leitura e escrita, otimizando a performance e escalabilidade da aplicação, especialmente útil para o histórico de alterações de tarefas.
+
+2. Microsserviços: Evoluir a arquitetura para microsserviços, separando funcionalidades como gerenciamento de projetos, tarefas e usuários em serviços independentes, facilitando a manutenção e permitindo escalabilidade seletiva.
+
+3. Sistema de Notificações: Desenvolver um sistema de alertas e notificações para prazos de tarefas, atualizações importantes e menções em comentários, entregando via e-mail, push notifications ou dentro da própria aplicação.
+
+4. Segurança Avançada: Implementar OAuth 2.0/OpenID Connect para autenticação e autorização robusta, com gerenciamento de permissões granular e proteção contra ameaças comuns como CSRF e XSS.
+
+5. Infraestrutura CI/CD: Estabelecer pipelines de integração e entrega contínua com testes automatizados, garantindo qualidade de código e permitindo implantações mais frequentes e confiáveis.
